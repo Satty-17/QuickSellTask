@@ -1,1 +1,0 @@
-Quicksell Assignment
