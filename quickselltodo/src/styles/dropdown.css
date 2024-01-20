@@ -1,0 +1,56 @@
+/* DropdownMenu.css */
+.dropdown-container {
+    position: relative;
+    font-family: sans-serif;
+  }
+  
+  .dropdown-button {
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px; /* Adjust as necessary */
+  }
+  
+  .caret {
+    margin-left: 8px;
+  }
+  
+  .dropdown-content {
+    font-family: sans-serif;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    border-radius: 4px;
+  }
+  
+  .dropdown-item {
+    font-family: sans-serif;
+    padding: 8px 0;
+  }
+  
+  .dropdown-item label {
+    font-family: sans-serif;
+    margin-right: 8px;
+  }
+  
+  .dropdown-item select {
+    font-family: sans-serif;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  

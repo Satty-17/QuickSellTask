@@ -1,0 +1,99 @@
+.card {
+  font-family: sans-serif;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 350px;
+    width: 350px;
+  }
+  
+  .card-header {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .card-body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* border: chocolate solid; */
+  }
+
+  .card-info {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .card-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* border: chocolate solid; */
+    justify-content: space-between;
+  }
+
+  .card-id {
+    font-family: sans-serif;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  
+  .status-icon {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  .user-image {
+    font-family: sans-serif;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .card-title {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  .card-footer {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .card-tag {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .priority-icon {
+    font-family: sans-serif;
+    font-size: 24px;
+  }
+
+  
+  h2 {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
